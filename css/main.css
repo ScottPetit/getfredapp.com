@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html {
   height: 100%;
   -webkit-font-smoothing: antialiased;
@@ -8,9 +14,10 @@ html {
 }
 
 body {
+  padding: 0;
   margin: 0;
   height: 100%;
-  background: #1296DF;
+  background: rgb(18,150,223);
   color: #999;
   font: normal 16px/1.5 "HelveticaNeue-Light", "Times New Roman", serif;
 }
@@ -30,7 +37,6 @@ a {
           box-sizing: padding-box;
 }
 
-
 a:hover {
   color: #24577e;
   /* border-bottom: 1px solid; */
@@ -41,18 +47,20 @@ a:hover {
   border-bottom: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4 h5 {
   font-family: "HelveticaNeue-CondensedBold", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
   font-weight: bold;
+  color: rgb(241, 241, 241);
+}
+
+p {
+  color: rgb(241, 241, 241);
 }
 
 h1 {
-  color: rgb(241,241,241);
   font-size: 2.25em;
   text-shadow: none;
 }
- h5 {font-size: 1.25em;
-    color:#FF5648;}
 
 /* basic layout */
 #container {
@@ -87,12 +95,20 @@ header h1 {
 header h2 {
   margin: -0.7em 0 0;
   font-size: 1.25rem;
-  color: rgb(241,241,241);
+  color: rgb(241, 241, 241);
 }
 
 header img {
   margin-right: 0.5em;
   float: left;
+}
+
+#main h1 {
+  line-height: 1.1;
+  font-size: 2.25em;
+  width: 92%;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.04em;
 }
 
 .iphone {
@@ -109,7 +125,7 @@ header img {
 }
 
 .buy {
-  margin: 2em 0 4em;
+  margin: 2em 0 -40.2em;
   padding: 0.75em;
   -webkit-border-radius: 0.375em;
      -moz-border-radius: 0.375em;
@@ -139,7 +155,7 @@ header img {
 .button:hover {
   background: rgb(241,241,241);
   border: 0;
-  color: rgb(18,150,223);
+  color: rgb(99, 82, 163);
 }
 
 .button:active {
@@ -201,7 +217,6 @@ footer {
   header h2 {
     margin: -0.7em 0 0;
     font-size: 1.25rem;
-    color: rgb(241,241,241);
   }
 }
 
@@ -211,7 +226,7 @@ em {
 
 .copyright {
   text-align: center;
-  color: rgb(241, 241, 241);
+  font-size: 100%;
   padding-bottom: 1em;
 }
 
