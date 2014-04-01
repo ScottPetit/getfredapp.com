@@ -1,9 +1,3 @@
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 html {
   height: 100%;
   -webkit-font-smoothing: antialiased;
@@ -14,7 +8,6 @@ html {
 }
 
 body {
-  padding: 0;
   margin: 0;
   height: 100%;
   background: #1296DF;
@@ -102,15 +95,6 @@ header img {
   float: left;
 }
 
-#main h1 {
-  line-height: 1.1;
-  font-size: 2.25em;
-  width: 92%;
-  margin-bottom: 0.5em;
-  letter-spacing: 0.04em;
-  color: rgb(241,241,241);
-}
-
 .iphone {
   position: relative;
   max-width: 744px;
@@ -142,7 +126,7 @@ header img {
   padding: 0.75em;
   color: #ddd;
   border: 0;
-  background-color: #FD872D; 
+  background-color: #FD872D;
   font-family: "HelveticaNeue-CondensedBold", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
   font-size: 1.25em;
@@ -171,49 +155,49 @@ footer {
   body {
     font-size: 16px;
   }
-  
+
   #container {
     max-width: 64em;
   }
-  
+
   #main {
     position: relative;
     width: 55%;
     margin-left:45%;
     min-height: 47em;
   }
-  
+
   #main h1 {
     font-size: 3.25em;
     width: 90%;
     margin-bottom: 0.5em;
   }
-  
+
   .valueprop {
     font-size: 1.25em;
     color: rgb(241,241,241);
   }
-  
+
   aside {
     width: 75%;
     margin-left: -83%;
     position: absolute;
     top: 0em;
   }
-  
+
   .iphone img {
     max-width: 100%;
   }
-  
+
   .iphone {
     width: 100%;
     height: 100%;
   }
-  
+
   header h1 {
     line-height: 1.375;
   }
-  
+
   header h2 {
     margin: -0.7em 0 0;
     font-size: 1.25rem;
